@@ -1,0 +1,19 @@
+# Environment Variables (CRITICAL - Do not commit!)
+.env
+
+# Virtual Environment
+.venv-build/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Wazuh Logs (Keep repo clean)
+wazuh_alerts/
+*.log
+
+# Build files (Since you have build/dist folders)
+build/
+dist/
+*.spec
